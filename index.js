@@ -61,6 +61,7 @@ function clickBlack() {
   pointBoard.innerHTML = `得分：${point}`;
   this.removeEventListener("click", clickBlack);
 }
+// 失败
 function fail() {
   infoBoard.style.display = "block";
   Array.from(content.children).forEach((item) => {
